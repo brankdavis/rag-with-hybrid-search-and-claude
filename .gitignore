@@ -1,0 +1,10 @@
+# Ignore everything...
+*
+
+# ...except .py files (and directories, so nested .py files are reachable)
+!*/
+!*.py
+!.gitignore
+
+# Never track the virtualenv, even its .py files
+.venv/
